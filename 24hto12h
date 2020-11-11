@@ -1,0 +1,9 @@
+h = int(input("Que horas são? "))
+m = int(input("Que minutos são? "))
+
+if h==0:
+    print(h+12,":",+m,"AM")
+if h>0 and h<=12:
+    print(h,":",+m,"AM")
+if h>12 and h<24:
+    print(h-12,":",+m,"PM")
