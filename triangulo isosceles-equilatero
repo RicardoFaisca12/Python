@@ -1,0 +1,8 @@
+ang1 = int(input("Diz os graus do primeiro angulo: "))
+ang2 = int(input("Diz os graus do segundo angulo: "))
+ang3 = int(input("Diz os graus do terceiro angulo: "))
+
+if ang1==ang2 or ang1==ang3:
+    print("O triangulo é isosceles")
+if ang1==ang3 and ang3==ang2:
+    print("O triangulo é quadrilatero")
