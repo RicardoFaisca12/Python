@@ -1,0 +1,10 @@
+n1 = int(input("Diz o primeiro numero: "))
+n2 = int(input("Diz o segundo numero: "))
+n3 = int(input("Diz o terceiro numero: "))
+
+if n1>n2 and n1>n3:
+    print("O primeiro numero é o maior","(",n1,")")
+if n2>n1 and n2>n3:
+    print("O segundo numero é o maior","(",n2,")")
+if n3>n1 and n3>n2:
+    print("O terceiro numero é o maior","(",n3,")")
