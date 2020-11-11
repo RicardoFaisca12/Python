@@ -1,0 +1,7 @@
+numero = input("Diz o primeiro numero: ")
+numero2 = input("Diz o segundo numero: ")
+
+if numero < numero2:
+    print("O primeiro numero é o menor","(",numero,")")
+else:
+        print("O segundo numero é o menor", "(", numero2, ")")
