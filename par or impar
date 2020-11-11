@@ -1,0 +1,7 @@
+numero = float(input('Diz um numero inteiro:'))
+resto = numero % 2
+
+if resto == 0:
+    print('o numero é pay')
+else:
+    print('o numero é impar')
